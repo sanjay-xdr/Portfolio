@@ -1,0 +1,56 @@
+body, html {
+    min-height: 100vh;
+    background-color: black;
+}
+div {
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    top: 10px;
+    /* set these so Chrome doesn't return 'auto' from getComputedStyle */
+    width: 80px;
+    color: white;
+    text-align: center;
+    /* background: rgba(255, 255, 255, 1); */
+    /* border: 2px solid rgba(0, 0, 0, 1); */
+    border-radius: 4px;
+    padding: 8px;
+    z-index: 999;
+}
+
+img{
+    z-index: -1;
+}
+div:nth-child(2){
+    position: absolute;
+    cursor: pointer;
+    left: 0;
+    top: 150px;
+    /* set these so Chrome doesn't return 'auto' from getComputedStyle */
+    width: 80px;
+    color: white;
+    text-align: center;
+    /* background: rgba(255, 255, 255, 1); */
+    /* border: 2px solid rgba(0, 0, 0, 1); */
+    border-radius: 4px;
+    padding: 8px;
+}
+
+img{
+    cursor:default
+}
+
+
+div:hover{
+    /* border: 1px solid red; */
+    background-color: aliceblue;
+    color: darkblue;
+}
+
+.second {
+    left: 100px;
+    top: 100px;
+}
+
+
+
